@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate from react-router-dom
 
-function SignUpPage() {
+function SignUp() {
   const navigate = useNavigate(); // Initialize useNavigate hook
 
   const handleSignInClick = () => {
@@ -63,4 +63,4 @@ function SignUpPage() {
   );
 }
 
-export default SignUpPage;
+export default SignUp;
